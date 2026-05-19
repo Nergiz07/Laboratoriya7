@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tapşırıq 4</title>
+</head>
+<body>
+
+<script>
+    let factorial = 1;
+
+    for (let i = 1; i <= 8; i++) {
+        factorial *= i;
+    }
+
+    console.log("8! =", factorial);
+</script>
+
+</body>
+</html>
