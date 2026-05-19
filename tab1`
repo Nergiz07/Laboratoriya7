@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input type="text" id="textInput">
+<button onclick="showText()">Göstər</button>
+
+<p id="result"></p>
+
+<script>
+function showText() {
+    var text = document.getElementById("textInput").value;
+    document.getElementById("result").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
